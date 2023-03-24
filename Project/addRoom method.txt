@@ -1,0 +1,36 @@
+public static Room[] addRoom(Room[] rooms;int total-rooms,int number-to-add,String Type,boolean AirCond,boolean Balcon,int Price)
+
+{
+for(int k=0;k<number-to-add;k++)
+{
+int i=0;
+	while(i<30)
+	{
+	if(rooms[i]==null)
+	{
+	rooms[i].ID=i;
+	rooms[i].Type=Type;
+	rooms[i].AirConditioning=AirCond;
+	rooms[i].Balcony=Balcon;
+	rooms[i].Price=Price;
+	}
+	else if(i==29&&k!=0)
+	{
+	System.out.println("Sorry we're out of space to build new rooms so we only built "+k+" rooms");
+	}
+	else if(i==29&&k==0)
+	{
+	System.out.println("There is no space to build more rooms");
+	}
+	i++;
+	}
+}
+
+
+
+
+
+
+
+
+}

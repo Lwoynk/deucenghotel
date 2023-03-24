@@ -1,0 +1,26 @@
+public static void addStaff(Staff[] staff,String name,String gender,String birthDate,String address,String phoneNo,String task,int salary)
+
+	{
+	int i=0;
+		while(i<30)
+		{
+			if(staff[i]==null)
+			{
+				Staff staff=new Staff();
+				staff.Task=task;
+				staff.Name=name;
+				staff.BirthDate=birthDate;
+				staff.Gender=gender;
+				staff.Salary=salary;
+				staff[i]=staff;
+				break;
+			}
+			else if(i==29&&rooms[29]!=null)
+			{
+				System.out.println("Sorry we're capacity to hire staff");
+			}
+			i++;
+		}
+	}
+		
+		
