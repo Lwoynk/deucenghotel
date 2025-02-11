@@ -1,32 +1,36 @@
 # DEUCENG Hotel Management System
 
-## About the Project / Proje Hakkında
+A Java-based hotel management system developed for Dokuz Eylul University Computer Engineering Department.
 
-DEUCENG Hotel is a hotel management system developed using Java. This project aims to provide a comprehensive solution for hotel operations management.
+## 📋 Project Overview
 
-DEUCENG Hotel, Java kullanılarak geliştirilmiş bir otel yönetim sistemidir. Bu proje, otel operasyonları yönetimi için kapsamlı bir çözüm sunmayı amaçlamaktadır.
+DEUCENG Hotel Management System is a comprehensive solution for managing hotel operations, designed with Java to provide efficient hotel management capabilities.
 
-## Features / Özellikler
+## 🌟 Features
 
-- Room management / Oda yönetimi
-- Reservation system / Rezervasyon sistemi
-- Guest check-in/check-out / Misafir giriş-çıkış işlemleri
-- Billing and payment processing / Faturalama ve ödeme işlemleri
+- Room Management
+- Guest Management
+- Reservation System
+- Check-in/Check-out Processing
+- Billing and Payment
+- Staff Management
+- Report Generation
 
-## Technologies Used / Kullanılan Teknolojiler
+## 🛠 Technical Stack
 
 - Java
-- Object-Oriented Programming / Nesne Yönelimli Programlama
+- Object-Oriented Programming
+- File I/O Operations
+- Database Management
 
-## Getting Started / Başlangıç
+## 📦 Prerequisites
 
-### Prerequisites / Gereksinimler
+- Java JDK 8 or higher
+- IDE (Eclipse, IntelliJ IDEA, or NetBeans)
+- Git (for version control)
 
-- Java JDK 8 or higher / Java JDK 8 veya üstü
-- Any Java IDE (Eclipse, IntelliJ IDEA, etc.) / Herhangi bir Java IDE (Eclipse, IntelliJ IDEA, vb.)
+## 🚀 Getting Started
 
-### Installation / Kurulum
-
-1. Clone the repository / Depoyu klonlayın
+1. Clone the repository
 ```bash
 git clone https://github.com/barissolcay/deucenghotel.git
